@@ -8,3 +8,4 @@
     * [npm](npm.md)
     * [Package.JSON](package_json.md)
     * [Gulp](gulp.md)
+* [Scripts](script.md)
