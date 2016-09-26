@@ -1,17 +1,17 @@
-# Book Title
+# Tareas Iniciales
 
-> Book introduction here.
+1. Aprenda a utilizar GitBook escribiendo la documentación en formato MarkDown de como ha realizado esta primera práctica, incluyendo secciones:
+2. Describiendo que es GitBook y como se utiliza,
+3. Que son las gh-pages y como se utilizan,
+4. Como se usa el módulo gh-pages para automatizar el despliegue en gh-pages
+5. Como se despliega un libro en www.gitbook.com,
+6. Que es nodeJS, npm, package.json`,
+7. Como funciona Gulpfile,
 
-## Live Demo
+## Versión en GH-Pages
 
-[Check demo!](http://my-user.github.io/my-repo)
+[Link a gh-pages](http://my-user.github.io/my-repo)
 
-## Background
+## Versión de Gitbook
 
-> [gitbook](http://www.gitbook.io) is used to generate github pages.
-
-## Contributing
-
-1. Create Issue
-2. Fork and PR
-
+[Gitbook](http://www.gitbook.io) is used to generate github pages.
