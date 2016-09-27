@@ -1,12 +1,11 @@
 El plugin gulp-gh-pages simplifica el proceso de despliegue en gh-pages. Para ello ponemos una tarea:
 
-´´´
-var gulp = require('gulp');
-var ghPages = require('gulp-gh-pages');
+```javascript
+    var gulp = require('gulp');
+    var ghPages = require('gulp-gh-pages');
 
-gulp.task('deploy', function() {
-  return gulp.src('./txt)
-    .pipe(ghPages());
-});
-
-´´´
+    gulp.task('deploy', function() {
+      return gulp.src('./html)
+        .pipe(ghPages());
+    });
+``` 
