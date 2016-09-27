@@ -10,4 +10,4 @@ El plugin gulp-gh-pages simplifica el proceso de despliegue en gh-pages. Para el
       return gulp.src('./html)
         .pipe(ghPages());
     });
-``` 
+```
