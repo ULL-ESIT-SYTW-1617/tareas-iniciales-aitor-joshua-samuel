@@ -9,4 +9,7 @@ En primer lugar, en la variable REPO guardaremos la ruta que nos dará **node -e
 
 El segundo caso en este script hace un proceso similar al anterior lo que esta vez toma la variable REPO a la hora de ejecutar el comando.
 
+#Deploy wiki#
+
+En este script guardaremos en REPO el link de nuestro repositorio el cual usaremos en los comandos de git siguientes.
 
