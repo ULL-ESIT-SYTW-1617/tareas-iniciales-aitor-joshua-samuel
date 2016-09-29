@@ -14,7 +14,7 @@
 
 ## Versión de Gitbook
 
-[Gitbook](http://www.gitbook.io) is used to generate github pages.
+[Gitbook](https://www.gitbook.com/book/losnen/tareas-iniciales/) is used to generate github pages.
 
 ##Autores
 
