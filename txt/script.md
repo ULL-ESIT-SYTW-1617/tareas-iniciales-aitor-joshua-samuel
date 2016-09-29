@@ -1,6 +1,6 @@
 ##Scripts
 
-#Contributos
+#Contributors
 Este script se encarga de generar el contenido del fichero MAINTAINERS desde los commit de git.
 
 #Deploy gitbook
@@ -16,4 +16,19 @@ En este script guardaremos en REPO el link de nuestro repositorio el cual usarem
 #Generate Gitbook#
 
 Este script se encarga de montar los MD de ./txt en ./gh-pages 
+
+#Generate Wiki#
+
+Este script toma el nombre del directorio donde se va a crear un fichero *generate-wiki.js*
+
+*losh y update losh y version*
+
+Estos tres script se encargan de mostrar por pantalla datos actuales.
+
+
+
+
+
+
+
 
