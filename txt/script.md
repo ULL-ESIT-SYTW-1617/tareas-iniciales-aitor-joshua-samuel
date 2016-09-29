@@ -13,3 +13,7 @@ El segundo caso en este script hace un proceso similar al anterior lo que esta v
 
 En este script guardaremos en REPO el link de nuestro repositorio el cual usaremos en los comandos de git siguientes.
 
+#Generate Gitbook#
+
+Este script se encarga de montar los MD de ./txt en ./gh-pages 
+
