@@ -15,20 +15,14 @@ En este script guardaremos en REPO el link de nuestro repositorio el cual usarem
 
 #Generate Gitbook#
 
-Este script se encarga de montar los MD de ./txt en ./gh-pages 
+Este script se encarga de montar los MD de ./txt en ./gh-pages
 
 #Generate Wiki#
 
 Este script toma el nombre del directorio donde se va a crear un fichero *generate-wiki.js*
 
+El fichero generate-wiki.js hace un despliegue del libro.
+
 *Losh, update-losh y version*
 
 Estos tres script se encargan de mostrar por pantalla datos actuales.
-
-
-
-
-
-
-
-
