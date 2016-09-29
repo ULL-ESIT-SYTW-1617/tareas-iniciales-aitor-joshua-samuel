@@ -21,7 +21,7 @@ Este script se encarga de montar los MD de ./txt en ./gh-pages
 
 Este script toma el nombre del directorio donde se va a crear un fichero *generate-wiki.js*
 
-*losh y update losh y version*
+*Losh, update-losh y version*
 
 Estos tres script se encargan de mostrar por pantalla datos actuales.
 
