@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Gitbook · GitBook</title>
+        <title>Módulo gh-pages · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="gh_pages.html" />
+    <link rel="next" href="despliegue_gb.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="gh_pages.html" />
     
 
     </head>
@@ -102,7 +102,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="GITBOOK.html">
+        <li class="chapter " data-level="1.2" data-path="GITBOOK.html">
             
                 <a href="GITBOOK.html">
             
@@ -129,7 +129,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="modulo_gh.html">
+        <li class="chapter active" data-level="1.3.1" data-path="modulo_gh.html">
             
                 <a href="modulo_gh.html">
             
@@ -261,7 +261,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Gitbook</a>
+        <a href="." >Módulo gh-pages</a>
     </h1>
 </div>
 
@@ -276,7 +276,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbook">Gitbook</h1><p>GitBook es una excelente herramienta para crear documentaci&#xF3;n de proyectos y libros t&#xE9;cnicos usando Markdown y Git/Github. Permite incluir ejemplos y ejercicios interactivos (de momento, soporta solamente JavaScript) para posteriormente publicarlos de forma online via Github o cualquier otro hosting web.</p><p>Utilizando Markdown podemos maquetar los documentos y crearlos en distintos formatos como PDF, ebook o web. Uno de los objetivos de GitBook es poder crear documentaci&#xF3;n que sea f&#xE1;cilmente editable y abierta a contribuciones, por eso usando Git/Github podemos publicar nuestro libro t&#xE9;cnico y manejar las colaboraciones de forma transparente.</p>
+                                <h1 id="m&#xF3;dulo-gh-pages-para-gulp">M&#xF3;dulo gh-pages para gulp</h1><p>El plugin gulp-gh-pages simplifica el proceso de despliegue en gh-pages. Para ello ponemos una tarea:</p><pre><code class="lang-javascript">    var gulp = require(&apos;gulp&apos;);
+    var ghPages = require(&apos;gulp-gh-pages&apos;);
+
+    gulp.task(&apos;deploy&apos;, function() {
+      return gulp.src(&apos;./html)
+        .pipe(ghPages());
+    });</code></pre>
+
                                 
                                 </section>
                             
@@ -303,12 +310,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introducción">
+                <a href="gh_pages.html" class="navigation navigation-prev " aria-label="Previous page: gh-pages">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="gh_pages.html" class="navigation navigation-next " aria-label="Next page: gh-pages">
+                <a href="despliegue_gb.html" class="navigation navigation-next " aria-label="Next page: Despliegue Gitbook">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -319,7 +326,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gitbook","level":"1.2","depth":1,"next":{"title":"gh-pages","level":"1.3","depth":1,"path":"gh_pages.md","ref":"gh_pages.md","articles":[{"title":"Módulo gh-pages","level":"1.3.1","depth":2,"path":"modulo_gh.md","ref":"modulo_gh.md","articles":[]}]},"previous":{"title":"Introducción","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GITBOOK.md","mtime":"2016-09-27T16:53:24.436Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-29T21:06:31.920Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Módulo gh-pages","level":"1.3.1","depth":2,"next":{"title":"Despliegue Gitbook","level":"1.4","depth":1,"path":"despliegue_gb.md","ref":"despliegue_gb.md","articles":[]},"previous":{"title":"gh-pages","level":"1.3","depth":1,"path":"gh_pages.md","ref":"gh_pages.md","articles":[{"title":"Módulo gh-pages","level":"1.3.1","depth":2,"path":"modulo_gh.md","ref":"modulo_gh.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"modulo_gh.md","mtime":"2016-09-29T09:24:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-30T10:29:34.130Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

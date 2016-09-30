@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Gulp · GitBook</title>
+        <title>Despliegue Gitbook · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="script.html" />
+    <link rel="next" href="node.html" />
     
     
-    <link rel="prev" href="package_json.html" />
+    <link rel="prev" href="modulo_gh.html" />
     
 
     </head>
@@ -147,7 +147,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="despliegue_gb.html">
+        <li class="chapter active" data-level="1.4" data-path="despliegue_gb.html">
             
                 <a href="despliegue_gb.html">
             
@@ -200,7 +200,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.3" data-path="gulp.html">
+        <li class="chapter " data-level="1.5.3" data-path="gulp.html">
             
                 <a href="gulp.html">
             
@@ -261,7 +261,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Gulp</a>
+        <a href="." >Despliegue Gitbook</a>
     </h1>
 </div>
 
@@ -276,14 +276,10 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gulpfile">Gulpfile</h1><p>Gulp.js es un build system(sistema de construcci&#xF3;n) que permite automatizar tareas comunes de desarrollo, tales como la minificaci&#xF3;n de c&#xF3;digo JavaScript, recarga del navegador, compresi&#xF3;n de im&#xE1;genes, validaci&#xF3;n de sintaxis de c&#xF3;digo y un sin fin de tareas m&#xE1;s.</p><h4 id="descargar-gulp">Descargar Gulp</h4><p>La instalaci&#xF3;n de gulp no puede ser m&#xE1;s sencilla si ya est&#xE1;s familiarizado con la instalaci&#xF3;n de m&#xF3;dulos de npm.</p><p>Entonces, debemos instalar el comando gulp de manera que lo podamos acceder desde cualquier lugar de nuestro equipo:</p><pre><code class="lang-she">npm install -g gulp</code></pre>
-<h5 id="el-archivo-gulpfilejs">El archivo gulpfile.js</h5><p>El aplicativo o centro de la automatizaci&#xF3;n de [Gulp] es el archivo gulpfile.js y es en este donde especificaremos las tareas o tasks que queremos ejecutar autom&#xE1;ticamente cada vez que guardamos un archivo y creemos una nueva imagen o se cumpla cierto per&#xED;odo.</p><p>La mayor parte del trabajo de gulp lo hacen los plugins y m&#xF3;dulos de npm que instalamos.</p><p>Un gulpfile.js basico:</p><pre><code class="lang-javascript"><span class="hljs-comment">// Archivo gulpfile.json</span>
-
-<span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp&apos;</span>);
-
-gulp.task(<span class="hljs-string">&apos;default&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hola Mundo!!!&apos;</span>);
-});</code></pre>
+                                <h1 id="despliege-gitbook">Despliege GitBook</h1><p>Para desplegar Gitbook haremos uso de los siguientes comandos.</p><pre><code>$ npm install -g gitbook-cli --save</code></pre>
+<pre><code class="lang-she">$ gitbook init</code></pre>
+<p>Hay que crear ficheros como SUMMMARY.md que es el indice de nuestro Gitbook y ademas el fichero README.md</p><p>Para crear los html usamos el siguiente comando</p><pre><code class="lang-she">$ gitbook build</code></pre>
+<p>Luego para testear que todo funciona correctamente hacemos un</p><pre><code class="lang-she">$ gitbook serve</code></pre>
 
                                 
                                 </section>
@@ -311,12 +307,12 @@ gulp.task(<span class="hljs-string">&apos;default&apos;</span>, <span class="hlj
 
             
                 
-                <a href="package_json.html" class="navigation navigation-prev " aria-label="Previous page: Package.JSON">
+                <a href="modulo_gh.html" class="navigation navigation-prev " aria-label="Previous page: Módulo gh-pages">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="script.html" class="navigation navigation-next " aria-label="Next page: Scripts">
+                <a href="node.html" class="navigation navigation-next " aria-label="Next page: Node">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -327,7 +323,7 @@ gulp.task(<span class="hljs-string">&apos;default&apos;</span>, <span class="hlj
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gulp","level":"1.5.3","depth":2,"next":{"title":"Scripts","level":"1.6","depth":1,"path":"script.md","ref":"script.md","articles":[]},"previous":{"title":"Package.JSON","level":"1.5.2","depth":2,"path":"package_json.md","ref":"package_json.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gulp.md","mtime":"2016-09-27T16:53:24.436Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-29T21:06:31.920Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Despliegue Gitbook","level":"1.4","depth":1,"next":{"title":"Node","level":"1.5","depth":1,"path":"node.md","ref":"node.md","articles":[{"title":"npm","level":"1.5.1","depth":2,"path":"npm.md","ref":"npm.md","articles":[]},{"title":"Package.JSON","level":"1.5.2","depth":2,"path":"package_json.md","ref":"package_json.md","articles":[]},{"title":"Gulp","level":"1.5.3","depth":2,"path":"gulp.md","ref":"gulp.md","articles":[]}]},"previous":{"title":"Módulo gh-pages","level":"1.3.1","depth":2,"path":"modulo_gh.md","ref":"modulo_gh.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"despliegue_gb.md","mtime":"2016-09-29T09:24:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-30T10:29:34.130Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
