@@ -14,10 +14,10 @@
 
 ## Versión de Gitbook
 
-[Gitbook](https://www.gitbook.com/book/losnen/tareas-iniciales/) is used to generate github pages.
+[Link a Gitbook](https://www.gitbook.com/book/losnen/tareas-iniciales/)
 
 ##Autores
 
-1. Aitor Bernal Falcón
-2. Joshua Perez García
-3. Samuel Ramos Barroso
+1. Aitor Bernal Falcón(http://alu0100830064.github.io/)
+2. [Samuel Ramos Barroso](http://losnen.github.io/)
+3. [Joshua Pérez](http://joshuape.github.io/)

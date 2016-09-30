@@ -4,7 +4,7 @@ var ghPages = require('gulp-gh-pages');
 var shell = require('gulp-shell');
 
 gulp.task('deploy', function() {
-  return gulp.src(['txt/_book/*/*/*','txt/_book/*/*','txt/_book/*'])
+  return gulp.src(['_book/*/*/*','_book/*/*','_book/*'])
     .pipe(ghPages());
 });
 

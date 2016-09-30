@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Scripts · GitBook</title>
+        <title>Node · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="npm.html" />
     
-    <link rel="prev" href="gulp.html" />
+    
+    <link rel="prev" href="despliegue_gb.html" />
     
 
     </head>
@@ -158,7 +160,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="node.html">
+        <li class="chapter active" data-level="1.5" data-path="node.html">
             
                 <a href="node.html">
             
@@ -216,7 +218,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6" data-path="script.html">
+        <li class="chapter " data-level="1.6" data-path="script.html">
             
                 <a href="script.html">
             
@@ -259,7 +261,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Scripts</a>
+        <a href="." >Node</a>
     </h1>
 </div>
 
@@ -274,7 +276,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="scripts">Scripts</h2><h1 id="contributors">Contributors</h1><p>Este script se encarga de generar el contenido del fichero MAINTAINERS desde los commit de git.</p><h1 id="deploy-gitbook">Deploy gitbook</h1><p>En primer lugar, en la variable REPO guardaremos la ruta que nos dar&#xE1; <strong>node -e &quot;console.log(require(&apos;./package.json&apos;).repository.url);&quot;</strong></p><p>El segundo caso en este script hace un proceso similar al anterior lo que esta vez toma la variable REPO a la hora de ejecutar el comando y lo publicar&#xE1;.</p><h1 id="deploy-wiki">Deploy wiki</h1><p>En este script guardaremos en REPO el link de nuestro repositorio el cual usaremos en los comandos de git siguientes.</p><h1 id="generate-gitbook">Generate Gitbook</h1><p>Este script se encarga de montar los MD de ./txt en ./gh-pages</p><h1 id="generate-wiki">Generate Wiki</h1><p>Este script toma el nombre del directorio donde se va a crear un fichero <em>generate-wiki.js</em></p><p>El fichero generate-wiki.js hace un despliegue del libro.</p><p><em>Losh, update-losh y version</em></p><p>Estos tres script se encargan de mostrar por pantalla datos actuales.</p>
+                                <h1 id="nodejs">Node.js</h1><p>Node.js es una librer&#xED;a y entorno de ejecuci&#xF3;n de E/S dirigida por eventos y por lo tanto as&#xED;ncrona que se ejecuta sobre el int&#xE9;rprete de JavaScript creado por Google V8. Lo cierto es que est&#xE1; muy de moda aunque no es algo nuevo puesto que existen librer&#xED;as como Twisted que hacen exactamente lo mismo pero si es cierto que es la primera basada en JavaScript y parece que tiene un gran rendimiento o eso dicen los benchmarks.</p><p><div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;"><iframe frameborder="0" allowfullscreen style="border: none;position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="//www.youtube.com/embed/fLZ3L9MIXAQ"></iframe></div></p>
                                 
                                 </section>
                             
@@ -301,10 +303,14 @@
 
             
                 
-                <a href="gulp.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Gulp">
+                <a href="despliegue_gb.html" class="navigation navigation-prev " aria-label="Previous page: Despliegue Gitbook">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="npm.html" class="navigation navigation-next " aria-label="Next page: npm">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -313,7 +319,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Scripts","level":"1.6","depth":1,"previous":{"title":"Gulp","level":"1.5.3","depth":2,"path":"gulp.md","ref":"gulp.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"script.md","mtime":"2016-09-29T20:12:22.430Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-29T21:06:31.920Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Node","level":"1.5","depth":1,"next":{"title":"npm","level":"1.5.1","depth":2,"path":"npm.md","ref":"npm.md","articles":[]},"previous":{"title":"Despliegue Gitbook","level":"1.4","depth":1,"path":"despliegue_gb.md","ref":"despliegue_gb.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"node.md","mtime":"2016-09-29T21:08:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-30T10:29:34.130Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
