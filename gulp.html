@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Introducción · GitBook</title>
+        <title>Gulp · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="GITBOOK.html" />
+    <link rel="next" href="script.html" />
     
+    
+    <link rel="prev" href="package_json.html" />
     
 
     </head>
@@ -87,7 +89,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -198,7 +200,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="gulp.html">
+        <li class="chapter active" data-level="1.5.3" data-path="gulp.html">
             
                 <a href="gulp.html">
             
@@ -259,7 +261,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introducción</a>
+        <a href="." >Gulp</a>
     </h1>
 </div>
 
@@ -274,26 +276,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="tareas-iniciales">Tareas Iniciales</h1><ol><li>Aprenda a utilizar GitBook escribiendo la documentaci&#xF3;n en formato MarkDown de como ha realizado esta primera pr&#xE1;ctica, incluyendo secciones:
-</li>
-<li>Describiendo que es GitBook y como se utiliza
-</li>
-<li>Que son las gh-pages y como se utilizan
-</li>
-<li>Como se usa el m&#xF3;dulo gh-pages para automatizar el despliegue en gh-pages
-</li>
-<li>Como se despliega un libro en www.gitbook.com
-</li>
-<li>Que es nodeJS, npm, package.json
-</li>
-<li>Como funciona Gulpfile
-</li></ol>
-<h2 id="versi&#xF3;n-en-gh-pages">Versi&#xF3;n en GH-Pages</h2><p><a href="https://losnen.github.io/tareas-iniciales-aitor-joshua-samuel/" target="_blank">Link a gh-pages</a></p><h2 id="versi&#xF3;n-de-gitbook">Versi&#xF3;n de Gitbook</h2><p><a href="http://www.gitbook.io" target="_blank">Gitbook</a> is used to generate github pages.</p><h2 id="autores">Autores</h2><ol><li>Aitor Bernal Falc&#xF3;n
-</li>
-<li>Joshua Perez Garc&#xED;a
-</li>
-<li>Samuel Ramos Barroso
-</li></ol>
+                                <h1 id="gulpfile">Gulpfile</h1><p>Gulp.js es un build system(sistema de construcci&#xF3;n) que permite automatizar tareas comunes de desarrollo, tales como la minificaci&#xF3;n de c&#xF3;digo JavaScript, recarga del navegador, compresi&#xF3;n de im&#xE1;genes, validaci&#xF3;n de sintaxis de c&#xF3;digo y un sin fin de tareas m&#xE1;s.</p><h4 id="descargar-gulp">Descargar Gulp</h4><p>La instalaci&#xF3;n de gulp no puede ser m&#xE1;s sencilla si ya est&#xE1;s familiarizado con la instalaci&#xF3;n de m&#xF3;dulos de npm.</p><p>Entonces, debemos instalar el comando gulp de manera que lo podamos acceder desde cualquier lugar de nuestro equipo:</p><pre><code class="lang-she">npm install -g gulp</code></pre>
+<h5 id="el-archivo-gulpfilejs">El archivo gulpfile.js</h5><p>El aplicativo o centro de la automatizaci&#xF3;n de [Gulp] es el archivo gulpfile.js y es en este donde especificaremos las tareas o tasks que queremos ejecutar autom&#xE1;ticamente cada vez que guardamos un archivo y creemos una nueva imagen o se cumpla cierto per&#xED;odo.</p><p>La mayor parte del trabajo de gulp lo hacen los plugins y m&#xF3;dulos de npm que instalamos.</p><p>Un gulpfile.js basico:</p><pre><code class="lang-javascript"><span class="hljs-comment">// Archivo gulpfile.json</span>
+
+<span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp&apos;</span>);
+
+gulp.task(<span class="hljs-string">&apos;default&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hola Mundo!!!&apos;</span>);
+});</code></pre>
 
                                 
                                 </section>
@@ -321,8 +311,12 @@
 
             
                 
+                <a href="package_json.html" class="navigation navigation-prev " aria-label="Previous page: Package.JSON">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="GITBOOK.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Gitbook">
+                
+                <a href="script.html" class="navigation navigation-next " aria-label="Next page: Scripts">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -333,7 +327,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introducción","level":"1.1","depth":1,"next":{"title":"Gitbook","level":"1.2","depth":1,"path":"GITBOOK.md","ref":"GITBOOK.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2016-09-29T09:24:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-30T10:29:34.130Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gulp","level":"1.5.3","depth":2,"next":{"title":"Scripts","level":"1.6","depth":1,"path":"script.md","ref":"script.md","articles":[]},"previous":{"title":"Package.JSON","level":"1.5.2","depth":2,"path":"package_json.md","ref":"package_json.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["youtube"],"pluginsConfig":{"youtube":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gulp.md","mtime":"2016-09-29T09:24:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-30T10:29:34.130Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
