@@ -21,3 +21,8 @@
 1. [Aitor Bernal Falcón](http://alu0100830064.github.io/)
 2. [Samuel Ramos Barroso](http://losnen.github.io/)
 3. [Joshua Pérez](http://joshuape.github.io/)
+
+##Repositorios
+
+* [Fork del repositorio](https://github.com/Losnen/tareas-iniciales-aitor-joshua-samuel)
+* [Repositorio de entrega](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-aitor-joshua-samuel)
