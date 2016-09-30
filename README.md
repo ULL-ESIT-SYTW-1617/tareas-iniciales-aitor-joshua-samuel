@@ -18,6 +18,6 @@
 
 ##Autores
 
-1. Aitor Bernal Falcón
+1. Aitor Bernal Falcón(http://alu0100830064.github.io/)
 2. [Samuel Ramos Barroso](http://losnen.github.io/)
 3. [Joshua Pérez](http://joshuape.github.io/)
